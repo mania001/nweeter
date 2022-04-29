@@ -1,7 +1,7 @@
-import { authService, db } from "fbase";
+import { authService } from "fbase";
 import { getAuth, signOut, updateProfile } from "firebase/auth";
-import { collection, getDocs, orderBy, query, where } from "firebase/firestore";
-import React, { useEffect, useState } from "react";
+// import { collection, getDocs, orderBy, query, where } from "firebase/firestore";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Profie = ({ refreshUser, userObj }) => {
